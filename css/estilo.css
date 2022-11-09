@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.caixa{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.caixa .box{
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+
+
+}
+
+.caixa .box:nth-child(1){
+    background: linear-gradient(45deg,#036eb7,#64eaff);
+
+}
+.caixa .box:nth-child(2){
+    background: linear-gradient(45deg,#ff5e01,#ff9204);
+
+}
+.caixa .box:nth-child(3){
+    background: linear-gradient(45deg,#34ff01,#0cce26);
+
+}
+.caixa .box:nth-child(4){
+    background: linear-gradient(45deg,#b70381,#d30a97);
+
+}
+
+
+.caixa .box h2{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: #fff;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.caixa .box h3{
+   margin: 0;
+   padding: 0;
+   color: #fff;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+
+.caixa .box p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+
+ }
+
+ .caixa .box:hover{
+    
+    background: #ff6;
+   
+
+}
+
